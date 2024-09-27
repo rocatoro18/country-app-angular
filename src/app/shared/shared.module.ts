@@ -8,8 +8,6 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
 import { SearchBoxComponent } from './components/search-box/search-box.component';
 import { LoadingSpinnerComponent } from './components/loading-spinner/loading-spinner.component';
 
-
-
 @NgModule({
   declarations: [
     HomePageComponent,
