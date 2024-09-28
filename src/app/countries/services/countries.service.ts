@@ -19,6 +19,7 @@ export class CountriesService {
   constructor(private http: HttpClient) {
     //console.log('country service init');
     this.loadFromLocalStorage();
+    console.log(this.cacheStore);
   }
 
   private saveToLocalStorage(){
