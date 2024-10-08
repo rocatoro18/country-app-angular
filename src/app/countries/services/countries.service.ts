@@ -27,7 +27,7 @@ export class CountriesService {
   }
 
   private loadFromLocalStorage(){
-    if(localStorage.getItem('cacheStore')) return;
+    if(!localStorage.getItem('cacheStore')) return;
     this.cacheStore = JSON.parse(localStorage.getItem('cacheStore')!);
   }
 
